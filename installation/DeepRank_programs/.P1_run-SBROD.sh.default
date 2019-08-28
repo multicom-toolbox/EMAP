@@ -1,0 +1,44 @@
+#!/bin/sh
+
+if [ $# -lt 2 ]
+then
+	printf "need two parameters : directory of input pdbs, directory of output\n\n"
+ 
+  printf "Usage: sh P1_run-SBROD.sh <model directory> <output-directory>\n\n";
+	
+	printf "\t** Example: sh SOFTWARE_PATH/bin/P1_run-SBROD.sh SOFTWARE_PATH/examples/T0980s1 SOFTWARE_PATH/test_out/T0980s1_SBROD\n\n";
+     
+	exit 1
+fi
+
+model_dir=$1 
+outputfolder=$2 
+
+
+
+if [[ "$outputfolder" != /* ]]
+then
+   echo "Please provide absolute path for $outputfolder"
+   exit
+fi
+
+
+mkdir -p $outputfolder
+cd $outputfolder
+
+
+echo "perl SOFTWARE_PATH/scripts/run_DeepRank_SBROD.pl  $model_dir  $outputfolder\n\n";								
+perl SOFTWARE_PATH/scripts/run_SBROD.pl $model_dir  $outputfolder  2>&1 | tee  SBROD.log
+
+
+printf "\nFinished.."
+printf "\nCheck log file <$outputfolder/SBROD.log>\n\n"
+
+
+if [[ ! -f "$outputfolder/SBROD_score.txt" ]];then 
+	printf "!!!!! Failed to run SBROD, check the installation <SOFTWARE_PATH/scripts/run_SBROD.pl>\n\n"
+else
+	printf "\nJob successfully completed!"
+	printf "\nResults: $outputfolder/SBROD_score.txt\n\n"
+fi
+

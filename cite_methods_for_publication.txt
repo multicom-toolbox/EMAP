@@ -1,0 +1,17 @@
+
+
+## SBROD
+
+Karasikov, Mikhail, Guillaume Pagès, and Sergei Grudinin. "Smooth orientation-dependent scoring function for coarse-grained protein quality assessment." Bioinformatics 35.16 (2018): 2801-2808.
+
+
+## MUFOLD
+
+Zhang, Jingfen, and Dong Xu. "Fast algorithm for population‐based protein structural model analysis." Proteomics 13.2 (2013): 221-229.
+
+
+## Qprob
+
+Cao, Renzhi, and Jianlin Cheng. "Protein single-model quality assessment by feature-based probability density functions." Scientific reports 6 (2016): 23990.
+
+

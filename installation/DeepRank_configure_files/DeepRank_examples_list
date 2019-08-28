@@ -1,0 +1,10 @@
+
+# SBROD
+installation/DeepRank_test_codes/T1_run-SBROD.sh
+
+
+# MUFOLD
+installation/DeepRank_test_codes/T2_run-MUFOLD.sh
+
+# Qprob
+installation/DeepRank_test_codes/T3_run-Qprob.sh

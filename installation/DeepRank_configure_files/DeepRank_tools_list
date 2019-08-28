@@ -1,0 +1,39 @@
+### DeepRank
+
+
+
+## dncon2
+tools/DNCON2/dncon2-v1.0.sh
+tools/DNCON2/scripts/dncon2-main.pl
+tools/DNCON2/metapsicov/runpsipredandsolv
+tools/DNCON2/scripts/aln-hhblits-jhmmer.pl
+tools/DNCON2/scripts/generate-alignments.pl
+tools/DNCON2/scripts/jackhammer_aln.pl
+tools/DNCON2/scripts/run-ccmpred-freecontact-psicov.pl
+
+
+## proq3
+tools/proq3/paths.sh
+
+### voronota
+tools/voronota_1_18_1877/run_voronota_batch.pl
+
+### spine_X
+tools/spine_X/spX.pl
+
+### sspro4
+tools/sspro4/configure.pl
+
+
+# SCRATCH-1D_1.1
+tools/SCRATCH-1D_1.1/lib/install_template1.sh
+tools/SCRATCH-1D_1.1/lib/install_template2.sh
+tools/SCRATCH-1D_1.1/lib/install_template3.sh
+tools/SCRATCH-1D_1.1/install.pl
+tools/SCRATCH-1D_1.1/pkg/ACCpro20_5.2/install.pl
+tools/SCRATCH-1D_1.1/pkg/ACCpro_5.2/install.pl
+tools/SCRATCH-1D_1.1/pkg/HOMOLpro_1.1/install.pl
+tools/SCRATCH-1D_1.1/pkg/PROFILpro_1.1/install.pl
+tools/SCRATCH-1D_1.1/pkg/SSpro_5.2/install.pl
+tools/SCRATCH-1D_1.1/pkg/SSpro8_5.2/install.pl
+
