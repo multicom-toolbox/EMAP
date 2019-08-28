@@ -18,7 +18,7 @@ our %AA1TO3 = reverse %AA3TO1;
 
 
 ############## Revise the path ########################
-$DeepRank_install = "/storage/htc/bdm/jh7x3/QA_eva_cheng20190826/";
+$DeepRank_install = "/storage/htc/bdm/jh7x3/QA_eva_cheng20190826/EMAP/";
 $H_tool = "$DeepRank_install/tools";
 
 ########################################################

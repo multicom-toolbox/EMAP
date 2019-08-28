@@ -10,7 +10,7 @@ use Cwd;
 use Cwd 'abs_path';
 use Scalar::Util qw(looks_like_number);
 
-$DeepRank_install = "/storage/htc/bdm/jh7x3/QA_eva_cheng20190826/";
+$DeepRank_install = "/storage/htc/bdm/jh7x3/QA_eva_cheng20190826/EMAP/";
 
 $num = @ARGV;
 if($num != 2)
