@@ -5,10 +5,10 @@ The system of estimating model accuracy for protein structures
 **(1) Download package (short path is recommended)**
 
 ```
-git clone https://github.com/huge200890/QA_eva_cheng20190826.git
+git clone https://github.com/multicom-toolbox/EMAP.git
 
 
-cd QA_eva_cheng20190826
+cd EMAP
 ```
 
 **(2) Setup the tools and  database (required)**
