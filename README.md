@@ -49,19 +49,19 @@ sh T3_run-Qprob.sh
    SBROD Usage:
    $ sh P1_run-SBROD.sh <model directory> <output-directory>
 
-   Example: sh /storage/htc/bdm/jh7x3/QA_eva_cheng20190826/bin/P1_run-SBROD.sh /storage/htc/bdm/jh7x3/QA_eva_cheng20190826/examples/T0980s1 /storage/htc/bdm/jh7x3/QA_eva_cheng20190826/test_out/T0980s1_SBROD
+   Example: sh /storage/htc/bdm/jh7x3/EMAP/bin/P1_run-SBROD.sh /storage/htc/bdm/jh7x3/EMAP/examples/T0980s1 /storage/htc/bdm/jh7x3/EMAP/test_out/T0980s1_SBROD
    
    
    MUFOLD Usage: 
    $sh P1_run-MUFOLD.sh <model directory> <output-directory>
 
-   Example: sh /storage/htc/bdm/jh7x3/QA_eva_cheng20190826/bin/P1_run-MUFOLD.sh /storage/htc/bdm/jh7x3/QA_eva_cheng20190826/examples/T0980s1 /storage/htc/bdm/jh7x3/QA_eva_cheng20190826/test_out/T0980s1_MUFOLD
+   Example: sh /storage/htc/bdm/jh7x3/EMAP/bin/P1_run-MUFOLD.sh /storage/htc/bdm/jh7x3/EMAP/examples/T0980s1 /storage/htc/bdm/jh7x3/EMAP/test_out/T0980s1_MUFOLD
         
         
    Qprob Usage: 
    $ sh P1_run-Qprob.sh <target id>  <path of fasta sequence> <model directory> <output-directory>
 
-    Example: sh /storage/htc/bdm/jh7x3/QA_eva_cheng20190826/bin/P1_run-Qprob.sh T0980s1 /storage/htc/bdm/jh7x3/QA_eva_cheng20190826/examples/T0980s1.fasta /storage/htc/bdm/jh7x3/QA_eva_cheng20190826/examples/T0980s1 /storage/htc/bdm/jh7x3/QA_eva_cheng20190826/test_out/T0980s1_Qprob
+    Example: sh /storage/htc/bdm/jh7x3/EMAP/bin/P1_run-Qprob.sh T0980s1 /storage/htc/bdm/jh7x3/EMAP/examples/T0980s1.fasta /storage/htc/bdm/jh7x3/EMAP/examples/T0980s1 /storage/htc/bdm/jh7x3/EMAP/test_out/T0980s1_Qprob
         
         
 ```
